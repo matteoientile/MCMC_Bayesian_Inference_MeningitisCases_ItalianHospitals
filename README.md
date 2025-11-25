@@ -35,7 +35,7 @@ Since the joint posterior is analytically intractable, we derive the full condit
 
 ## 🛠️ Code Structure & Algorithms
 
-The codebase is structured using a functional programming approach. The key components implemented in `Homework1_357948_Ientile_File1.py` are:
+The codebase is structured using a functional programming approach. The key components implemented in `Meningitis.py` are:
 
 ### Core Algorithms
 * `mcmc_algorithm(mu, lb_mu, ub_mu, eta, B, y)`: The main engine. It runs the hybrid sampler, updating $\mu$ via Metropolis and the vector $\boldsymbol{\lambda}$ via Gibbs sampling at each iteration. It includes an adaptive tuning mechanism for the proposal variance $\eta$.
